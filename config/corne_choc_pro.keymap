@@ -53,6 +53,8 @@
 &kp LSHFT  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF                        &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans
                                              &kp LGUI         &trans           &kp SPACE                              &kp LGUI  &trans    &kp SPACE
             >;
+
+            sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp C D>;
         };
 
         raise_layer {
